@@ -7,14 +7,10 @@
 
 body{
   background-color: #23252C;
-}
-
-.App{
   display: flex;
-  width: 100vw;
-  height: 100vh;
   justify-content: center;
 }
+
 .width-container{
   width: 317px;
 }
@@ -23,7 +19,7 @@ body{
 width: 317px;
 height: 317px;
 object-fit: cover;
-border-radius: 5px 5px 0px 0px;
+border-radius: 10px 10px 0px 0px;
 }
 
 .header--container{
@@ -87,4 +83,19 @@ span{
   margin-top: 3px;
   font-size: 10.24px;
   line-height: 150%;
+}
+
+.footer-container{
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.footer-ul{
+  list-style: none;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 20px;
+  font-size: 2rem;
+  padding: 20px;
 }
